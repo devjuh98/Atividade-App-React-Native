@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "expo": "^53.0.22",
+    "react-native": "^0.79.5"
+  },
+  "devDependencies": {
+    "@expo/metro-config": "^0.18.11",
+    "metro": "^0.72.3",
+    "metro-minify-terser": "^0.82.0"
+  }
+}
