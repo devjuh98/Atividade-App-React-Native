@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Inicial from './src/pages/inicial';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Olá mundo</Text>
       <StatusBar style="auto" />
+      <Inicial/>
     </View>
   );
 }
