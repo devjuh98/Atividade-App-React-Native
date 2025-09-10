@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "CicloNovo",
-    "slug": "CicloNovo",
+    "name": "Ciclo+",
+    "slug": "CicloMais",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/icons/logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./src/assets/icons/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/assets/icons/logo.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true

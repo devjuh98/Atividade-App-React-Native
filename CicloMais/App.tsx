@@ -1,21 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Inicial from './src/pages/inicial';
+import React, { useState } from 'react';
+import Welcome from './src/pages/welcome';
+import Home from './src/pages/home';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <StatusBar style="auto" />
-      <Inicial/>
-    </View>
+  const [nome, setNome] = useState('');
+
+  return nome === '' ? (
+    <Welcome onStart={setNome} />
+  ) : (
+    <Home nome={nome} />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
